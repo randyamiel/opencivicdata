@@ -23,9 +23,6 @@ checkout = git clone git@github.com:opencivicdata/scrapers-us-state.git
 [repos/scrapers-us-municipal]
 checkout = git clone git@github.com:opencivicdata/scrapers-us-municipal.git
 
-[repos/scrapers-ca]
-checkout = git clone git@github.com:opencivicdata/scrapers-ca.git
-
 # Meta-repos
 
 [repos/docs.opencivicdata.org]
