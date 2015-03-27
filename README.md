@@ -22,3 +22,9 @@ make
 ```
 
 You should have fresh and up to date checkouts in `repos/`.
+
+Enter your virtualenv and run:
+
+```
+./scripts/setup-development.sh
+```
