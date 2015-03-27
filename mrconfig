@@ -1,5 +1,10 @@
+# Infra repos
+
 [repos/pupa]
 checkout = git clone git@github.com:opencivicdata/pupa.git
+
+[repos/python-opencivicdata-django]
+checkout = git clone git@github.com:opencivicdata/python-opencivicdata-django.git
 
 [repos/python-opencivicdata]
 checkout = git clone git@github.com:opencivicdata/python-opencivicdata.git
@@ -9,3 +14,37 @@ checkout = git clone git@github.com:opencivicdata/python-opencivicdata-divisions
 
 [repos/ocd-division-ids]
 checkout = git clone git@github.com:opencivicdata/ocd-division-ids.git
+
+# Scrape repos
+
+[repos/scrapers-us-federal]
+checkout = git clone git@github.com:opencivicdata/scrapers-us-federal.git
+
+[repos/scrapers-us-state]
+checkout = git clone git@github.com:opencivicdata/scrapers-us-state.git
+
+[repos/scrapers-us-municipal]
+checkout = git clone git@github.com:opencivicdata/scrapers-us-municipal.git
+
+[repos/scrapers-ca]
+checkout = git clone git@github.com:opencivicdata/scrapers-ca.git
+
+# Meta-repos
+
+[repos/docs.opencivicdata.org]
+checkout = git clone git@github.com:opencivicdata/docs.opencivicdata.org.git
+
+[repos/api.opencivicdata.org]
+checkout = git clone git@github.com:opencivicdata/api.opencivicdata.org.git
+
+[repos/opencivicdata.org]
+checkout = git clone git@github.com:opencivicdata/opencivicdata.org.git
+
+[repos/opencivicdemo]
+checkout = git clone git@github.com:opencivicdata/opencivicdemo.git
+
+[repos/vagrant-opencivicdata.org]
+checkout = git clone git@github.com:opencivicdata/vagrant-opencivicdata.org.git
+
+[repos/python-opencivicdata-api]
+checkout = git clone git@github.com:opencivicdata/python-opencivicdata-api.git
