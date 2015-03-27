@@ -1,19 +1,16 @@
 # Infra repos
-
-[repos/pupa]
-checkout = git clone git@github.com:opencivicdata/pupa.git
-
-[repos/python-opencivicdata-django]
-checkout = git clone git@github.com:opencivicdata/python-opencivicdata-django.git
-
 [repos/python-opencivicdata]
 checkout = git clone git@github.com:opencivicdata/python-opencivicdata.git
 
 [repos/python-opencivicdata-divisions]
-checkout = git clone git@github.com:opencivicdata/python-opencivicdata-divisions.git
+checkout = git clone git@github.com:opencivicdata/python-opencivicdata-divisions.git --recursive
 
 [repos/ocd-division-ids]
 checkout = git clone git@github.com:opencivicdata/ocd-division-ids.git
+
+[repos/pupa]
+checkout = git clone git@github.com:opencivicdata/pupa.git
+
 
 # Scrape repos
 
