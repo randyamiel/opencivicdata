@@ -1,11 +1,11 @@
-[pupa]
+[repos/pupa]
 checkout = git clone git@github.com:opencivicdata/pupa.git
 
-[python-opencivicdata]
+[repos/python-opencivicdata]
 checkout = git clone git@github.com:opencivicdata/python-opencivicdata.git
 
-[python-opencivicdata-divisions]
+[repos/python-opencivicdata-divisions]
 checkout = git clone git@github.com:opencivicdata/python-opencivicdata-divisions.git
 
-[ocd-division-ids]
+[repos/ocd-division-ids]
 checkout = git clone git@github.com:opencivicdata/ocd-division-ids.git
