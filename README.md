@@ -28,3 +28,10 @@ Enter your virtualenv and run:
 ```
 ./scripts/setup-development.sh
 ```
+
+And, if you need Ansible stuff:
+
+```
+cd repos
+../scripts/ocd-dev.sh
+```
