@@ -11,12 +11,21 @@ fi
 OCD_HOME=$(cd "$(dirname "${BASH_SOURCE[0]}")"/../ && pwd)
 
 cd ${OCD_HOME}
+REPOS=$(cat mrconfig  | grep "^\[" | tr -d "[]")
+
 make
 
-for repo in $(cat mrconfig  | grep "^\[" | tr -d "[]"); do
+
+for repo in ${REPOS}; do
     cd ${repo}
     if [ -e setup.py ]; then
         python setup.py develop
     fi
     cd -
+done
+
+for repo in ${REPOS}; do
+    if [ -e ${repo}/requirements.txt ]; then
+        pip install -r ${repo}/requirements.txt
+    fi
 done
