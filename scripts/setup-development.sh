@@ -29,3 +29,5 @@ for repo in ${REPOS}; do
         pip install -r ${repo}/requirements.txt
     fi
 done
+
+pip install Django python-dateutil
