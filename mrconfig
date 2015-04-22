@@ -38,7 +38,7 @@ checkout = git clone git@github.com:opencivicdata/opencivicdata.org.git
 checkout = git clone git@github.com:opencivicdata/opencivicdemo.git
 
 [repos/vagrant-opencivicdata.org]
-checkout = git clone git@github.com:opencivicdata/vagrant-opencivicdata.org.git
+checkout = git clone git@github.com:opencivicdata/vagrant-opencivicdata.org.git --recursive
 
 [repos/python-opencivicdata-api]
 checkout = git clone git@github.com:opencivicdata/python-opencivicdata-api.git
