@@ -15,6 +15,13 @@ sudo apt install \
     myrepos
 ```
 
+On OSX, using [Homebrew](http://brew.sh):
+
+```
+brew update
+brew install git myrepos
+```
+
 Now, to pull down the repos:
 
 ```
