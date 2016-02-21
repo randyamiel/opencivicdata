@@ -12,7 +12,12 @@ sudo apt update
 sudo apt install \
     git \
     make \
-    myrepos
+    myrepos \
+    ansible \
+    virtualbox \
+    vagrant \
+    libxml2-dev \
+    libxslt1-dev
 ```
 
 On OSX, using [Homebrew](http://brew.sh):
